@@ -1,0 +1,70 @@
+// main: ../style.less
+
+.reviews {
+    margin-top: 32px;
+
+
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #333333;
+    text-transform: uppercase;
+
+}
+
+h4 {
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    text-align: center;
+}
+
+.reviews__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews__content {
+    width: 240px;
+}
+
+.reviews__photo {
+    display: flex;
+    margin: 18px 0;
+
+    img {
+        cursor: pointer;
+        border-radius: 10px;
+        box-shadow: 0px 4px 15px fade(#000000, 25%);
+
+        &:hover {
+            box-shadow: 0px 4px 15px fade(#000000, 45%);
+        }
+    }
+
+
+    img:first-child {
+        margin-right: 20px;
+    }
+
+
+}
+
+
+.header__btn--revievs {
+    margin-top: 40px;
+    padding: 15px 74px;
+    background: #0045FE;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px fade(#274774, 30%);
+    transition: box-shadow .2s linear;
+
+    &:hover {
+        box-shadow: 0px 4px 20px fade(#274774, 60%);
+    }
+}

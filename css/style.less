@@ -1,0 +1,54 @@
+// compress: true
+@import "vars";
+
+/* Blocks */
+@import "blocks/container.less";
+@import "blocks/header.less";
+@import "blocks/sale.less";
+@import "blocks/gallery.less";
+@import "blocks/findus.less";
+@import "blocks/reviews.less";
+@import "blocks/footer.less";
+
+
+body {
+    margin: 0 auto;
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: @regular-gray;
+    width: 100%;
+    max-width: 375px;
+    background: linear-gradient(#F9E2E3, #FFA8AD, #F06083, #B26CFF, rgba(55, 72, 218, 0.589), #1E6FDD);
+}
+
+.opacity {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 800;
+    color: @regular-gray;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 800;
+    color: @regular-gray;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
